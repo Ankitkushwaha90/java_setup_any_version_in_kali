@@ -26,6 +26,7 @@ sudo update-alternatives --set java /usr/lib/jvm/jdjdkk/bin/javac
 
    ┌──(root㉿kali)-[/usr/lib/jvm/jdk-22.0.1/bin]
 └─# sudo update-alternatives --config java
+
 There are 4 choices for the alternative java (providing /usr/bin/java).
 
   Selection    Path                                         Priority   Status
