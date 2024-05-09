@@ -13,15 +13,14 @@
 - 2.write can be directe in file => sudo nano /etc/environment
 
 - 3. setup for choise any one version of java
-bash```
-sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdjdkk/bin/java"
-
-sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdjdkk/bin/javac"
-
-sudo update-alternatives --set java /usr/lib/jvm/jdjdkk/bin/java
-
-sudo update-alternatives --set java /usr/lib/jvm/jdjdkk/bin/javac
-```
+      
+          sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdjdkk/bin/java"
+          
+          sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdjdkk/bin/javac"
+          
+          sudo update-alternatives --set java /usr/lib/jvm/jdjdkk/bin/java
+          
+          sudo update-alternatives --set java /usr/lib/jvm/jdjdkk/bin/javac
 
 - 4. final
 
