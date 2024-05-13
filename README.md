@@ -15,14 +15,14 @@ export PATH="$PATH:/usr/lib/jvm/jdk-22.0.1/bin/javac"
 
 - 3. setup for choise any one version of java
 ```bash
-sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk-22.0.1/bin/java"
-sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk-22.0.1/bin/javac"
-sudo update-alternatives --set java /usr/lib/jvm/jdk-22.0.1/bin/java
+sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk-22.0.1/bin/java" 0
+sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk-22.0.1/bin/javac" 0
+sudo update-alternatives --set java /usr/lib/jvm/jdk-22.0.1/bin/java 
 sudo update-alternatives --set java /usr/lib/jvm/jdk-22.0.1/bin/javac
 ```
 
 - 4. final
-
+```bash
    ┌──(root㉿kali)-[/usr/lib/jvm/jdk-22.0.1/bin]
 └─# sudo update-alternatives --config java
 
@@ -38,8 +38,7 @@ There are 4 choices for the alternative java (providing /usr/bin/java).
 
 Press <enter> to keep the current choice[*], or type selection number: 4
 update-alternatives: using /usr/lib/jvm/jdk-22.0.1/bin/javac to provide /usr/bin/java (java) in manual mode
-                                                                                                                                                                      
+
 ┌──(root㉿kali)-[/usr/lib/jvm/jdk-22.0.1/bin]
 └─# 
-
-
+```
