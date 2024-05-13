@@ -2,18 +2,19 @@
 
 # and commands for extract tar.gz file =>sudo tar -xf filename.tar.gz
 
-- 1.check path for commands => $PATH 
+- 1.check path for commands => $PATH
 
-                          => export PATH="$PATH:/usr/lib/jvm/jdk-22.0.1/bin"
-                          
-                          => export PATH="$PATH:/usr/lib/jvm/jdjdkk/bin/java"
-                          
-                          => export PATH="$PATH:/usr/lib/jvm/jdjdkk/bin/javac"
+```bash
+export PATH="$PATH:/usr/lib/jvm/jdk-22.0.1/bin"
+export PATH="$PATH:/usr/lib/jvm/jdjdkk/bin/java"
+                         
+export PATH="$PATH:/usr/lib/jvm/jdjdkk/bin/javac"
+```
 
 - 2.write can be directe in file => sudo nano /etc/environment
 
 - 3. setup for choise any one version of java
-      
+      ```bash
           sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdjdkk/bin/java"
           
           sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdjdkk/bin/javac"
@@ -21,6 +22,7 @@
           sudo update-alternatives --set java /usr/lib/jvm/jdjdkk/bin/java
           
           sudo update-alternatives --set java /usr/lib/jvm/jdjdkk/bin/javac
+      ```
 
 - 4. final
 
